@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💻DesafioOne-Encriptador </title>
+    <link rel="stylesheet" href= "estilos.css">
+    
+</head>
+<body>
+   <div class="container">
+<div class="logo">
+    <img class="logoImg" src="imagenes/Frame 6.png">
+    
+    <h1 class="title">Encriptador de mensajes</h1>
+</div> 
+
+<div class="left">
+    <input  class="inputTexto" id="inputTexto"type="text" placeholder= "Ingrese el texto aquí">
+</div>
+
+<div class="right">
+    <img  id="imgDer" src="imagenes/niño encriptando.png" >
+    <h1  id="texto">Ningún mensaje fue encontrado</h1>
+    <textarea  id="texto2" cols="30" rows="10">Ingrese el texto que deseas encriptar o desencriptar</textarea>
+    <button id="copiar"type="button" name="button" onclick ="copiar()">Copiar</button>
+</div>
+
+<div class = "left-button">
+    <p id="leyenda">❗Solo minúsculas y sin acentos.</p>
+    <button id="btn-encriptar" onclick ="encriptar()">Encriptar</button>
+    <button id="btn-desencriptar" onclick = "desencriptar()">Desencriptar</button>
+    
+</div>
+
+   </div>
+
+    <footer id= "piepagina">
+          <p>Sandra Olier Challenge 2024. ©️Todos los derechos reservados .</p>
+    </footer>
+    <script src="archivo.js"></script>
+</body>
+</html>
